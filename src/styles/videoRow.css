@@ -1,0 +1,44 @@
+.videoRow {
+	display: flex;
+	max-width: 700px;
+	margin-bottom: 1.8rem;
+}
+.videoRow > img {
+	object-fit: contain;
+	width: 15.375em;
+	height: 8.625rem;
+}
+.videoRow__text {
+	margin-left: 0.875rem;
+}
+.videoRow__text > h4 {
+	margin-bottom: 0.125rem;
+}
+.videoRow__description {
+	margin-top: 1.25rem;
+	font-size: 12px;
+	color: #606060;
+}
+.videoRow__headline {
+	font-size: 12px;
+	color: #606060;
+}
+.videoRow__thumbnail {
+	padding: 0.1rem;
+	background: lightgray;
+}
+
+.videoRow__Subs {
+	font-weight: bolder;
+	color: rgb(84, 157, 211);
+}
+@media screen and (max-width: 675px) {
+	.videoRow > img {
+		width: 12.375em;
+		height: 6.625rem;
+		object-fit: contain;
+	}
+	.videoRow__text > h4 {
+		font-size: 0.8rem;
+	}
+}

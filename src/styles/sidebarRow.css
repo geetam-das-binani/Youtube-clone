@@ -1,0 +1,36 @@
+.sidebarRow {
+	display: flex;
+	align-items: center;
+	padding: 0.6rem 1.2rem;
+}
+.sidebarRow > .MuiSvgIcon-root {
+	color: gray;
+	font-size: large !important;
+   
+}
+.sidebarRow > .sidebarRow__title {
+	flex: 1;
+	margin-left: 1.2rem;
+	font-size: 12px;
+	font-weight: 500;
+}
+.sidebarRow:hover {
+	background: lightgrey;
+	cursor: pointer;
+}
+.sidebarRow:hover > .MuiSvgIcon-root {
+	color: red;
+}
+.sidebarRow:hover > .sidebarRow__title {
+	font-weight: bold;
+}
+/* no space in between the two classes  */
+.sidebarRow.selected{
+    background: lightgray;
+}
+.sidebarRow.selected >.MuiSvgIcon-root{
+     color: red;
+}
+.sidebarRow.selected >.sidebarRow__title{
+    font-weight: bold;
+}

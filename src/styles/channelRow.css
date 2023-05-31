@@ -1,0 +1,36 @@
+.channelRow {
+	display: flex;
+	align-items: center;
+	width: 70%;
+}
+
+.channel__logo {
+	margin: 0.6rem 3.75rem;
+	height: 7.5rem !important;
+	width: 7.5rem !important;
+}
+.channelRow__text {
+	display: flex;
+	flex-direction: column;
+}
+.channelRow__text > p {
+	color: #606060;
+	font-size: small !important;
+}
+.channelRow__text > h4 {
+	display: flex;
+	align-items: center;
+	
+
+}
+.channelRow__text >h4 > .MuiSvgIcon-root{
+	margin-left: .1rem;
+}
+@media screen and (max-width: 675px) {
+	.channelRow {
+		width: 100%;
+	}
+	.channel__logo {
+		margin: 0.6rem 2rem;
+	}
+}
